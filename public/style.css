@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+  
+    font-family: 'Recursive', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+/*SCREEN 1*/
+.s1 {
+    font-size: 20px;
+    color: black;
+}
+.root {
+    position: absolute;
+   
+    background-color: #FB6B6B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+    justify-content: center;
+}
+.imagem {
+   width: 55px;
+   height: 65px;
+   margin-top: 90px;
+}
+.s1 {
+    font-family: 'Righteous';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 31px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.012em;
+
+color: #FFFFFF;
+}
+.buttons1 {
+    width: 141px;
+    height: 31px;
+    background-color: #ffffff;
+    border: 1px solid #D70900;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin-top: 73px;
+    margin-bottom: 87px;
+    line-height: 14.4px;
+}
+.buttons1 h2 {
+    font-family: 'Recursive';
+    font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+color: #D70900;
+}
+
+/*SCREEN 2*/
+.topo {
+    display: flex;
+    margin-top: 19px;
+}
+.imagems2 {
+    margin-right: 5px;
+}
+.buttons2 {
+    position: relative;
+    width: 182px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 1px solid #D70900;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 87px;
+    margin-top: -80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+  
+}
+.buttons {
+    margin-top: 100px ;
+    position: relative;
+}
+.buttons2 h2 {
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    
+    color: #333333;
+}
+.Topos2 {
+    font-family: 'Righteous';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.012em;
+
+color: #FFFFFF;
+}
+
+/*CARD VIRADO*/
+.buttons3 {
+  position: relative;
+width: 182px;
+height: 80px;
+
+background: #FFFFD5;
+box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+}
+.image {
+  position: relative;
+ margin-top: 30px;
+ margin-left: 10px;
+}
+
+.buttons4 {
+    width: 182px;
+height: 80px;
+
+background: #FFFFD5;
+box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+padding: 13px 6px 7px;
+
+ 
+  align-items: center;
+  justify-content: space-between;
+}
+.buttons4 h2 {
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 22px;
+    
+    color: #333333;
+}
+
+
+/*FOOTER*/
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  
+    width: 100%;
+    height: 50px;
+  
+    background-color: #fff;
+  
+    font-family: 'Recursive', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /*COMO SE SENTIU AO RESPONDER*/
+  .Choose {
+      display: flex;
+      justify-content: space-around;
+      font-size: 5px;
+  }
+
+  .red{
+    width: 85.17px;
+    height: 37.17px;
+    
+    background: #FF3030;
+    border-radius: 5px;
+  }
+  .yellow{
+    position: absolute;
+    width: 85.17px;
+    height: 37.17px;
+    
+    background: #FF922E;
+    border-radius: 5px;
+  }
+  .green {
+    width: 85.17px;
+    height: 37.17px;
+    
+    background: #2FBE34;
+    border-radius: 5px;
+  }
