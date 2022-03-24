@@ -1,3 +1,0 @@
-import React from "react";
-const questions = [{pergunta:"O que é JSX?", perguntahide: "pergunta 1" }, {pergunta:"O React é?", perguntahide: "pergunta 2"},{pergunta: " Componentes devem iniciar com ...?", perguntahide: "pergunta 3"}, {pergunta:"Podemos ... colocar?", perguntahide: "pergunta 4"}, {pergunta:"O ReactDOM nos ajuda ...?", perguntahide: "pergunta 5"},{pergunta: "Usamos o npm para?", perguntahide: "pergunta 6"},{pergunta: "Usamos props para", perguntahide: "pergunta 7"}, {pergunta: "Usamos estado (state) para?", perguntahide: "pergunta 8"}] ;
-export default function()
