@@ -40,6 +40,8 @@
   
   .Deck main {
     margin: 150px 0px;
+    margin-top: 450px;
+    position: relative;
   }
   
   .Deck .resultado {
